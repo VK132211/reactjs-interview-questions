@@ -5,9 +5,6 @@ export default function DropdownExample() {
     const countries = [{ id: 1, name: 'India' }, { id: 2, name: 'UK' }, { id: 3, name: 'US' }]
     const [selectedFruit, setSelectedFruit] = useState('');
     const [selectedCountry, setSelectedCountry] = useState('');
-    fruits.map(() => {
-
-    })
     return (
         <div>
             <select value={selectedFruit} onChange={(e) => setSelectedFruit(e.target.value)}>
