@@ -12,6 +12,12 @@ import CounterUseState from './components/18/CounterUseState'
 import CounterUseReducer from './components/19/CounterUseReducer'
 import { default as PC } from './components/2/ParentComponent'
 import ReRenderExample from './components/20/ReRenderExample'
+import PureCounter from './components/21/PureCounter'
+import ControlledComponent from './components/22/ControlledInputComponent'
+import UnControlledComponent from './components/22/UncontrolledInputComponent'
+import WindowWidthComponent from './components/23/windowWidthComponent'
+import ExpensiveComponent from './components/24/ExpensiveComponent'
+import ContextAPIExample from './components/25/ContextAPIExample'
 import DropdownExample from './components/3/DropdownExample'
 import Lazy from './components/4/Lazy'
 import DisplayText from './components/5/DisplayText'
@@ -44,6 +50,12 @@ function App() {
       <CounterUseState />
       <CounterUseReducer />
       {/* <ReRenderExample /> */}
+      <PureCounter count={9} />
+      <ControlledComponent />
+      <UnControlledComponent />
+      <WindowWidthComponent />
+      <ExpensiveComponent />
+      <ContextAPIExample />
     </>
   )
 }
