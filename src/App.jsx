@@ -18,6 +18,9 @@ import UnControlledComponent from './components/22/UncontrolledInputComponent'
 import WindowWidthComponent from './components/23/windowWidthComponent'
 import ExpensiveComponent from './components/24/ExpensiveComponent'
 import ContextAPIExample from './components/25/ContextAPIExample'
+import UsePopup from './components/27/UsePopup'
+import CallMethodAfterStateUpdate from './components/28/CallMethodAfterStateUpdate'
+import ForceUdpateReducer from './components/29/forceUpdateReducer'
 import DropdownExample from './components/3/DropdownExample'
 import Lazy from './components/4/Lazy'
 import DisplayText from './components/5/DisplayText'
@@ -56,6 +59,11 @@ function App() {
       <WindowWidthComponent />
       <ExpensiveComponent />
       <ContextAPIExample />
+      {/* {26} */}
+      <UsePopup />
+      <CallMethodAfterStateUpdate />
+      <ForceUdpateReducer />
+      {/* {30} */}
     </>
   )
 }
